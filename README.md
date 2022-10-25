@@ -5,9 +5,9 @@ This program allows to remove background from high quality image by using low qu
 ## How to use
 
 - Clone repository `git clone https://github.com/jurajhonsch/Background-Remover.git`
-- Install requirements (opencv, argparse)`python3 -m pip install -r requirements`
+- Install requirements (opencv, argparse)`python3 -m pip install -r requirements.txt`
 - Download low quality preview from online background remover (https://remove.bg, https://removal.ai).
-- Run `python3 --original my_high_quality_original_image.jpg --preview my_low_quality_preview.png --result my_high_quality_result.png`
+- Run `python3 main.py --original my_high_quality_original_image.jpg --preview my_low_quality_preview.png --result my_high_quality_result.png`
 
 ## Examples
 
